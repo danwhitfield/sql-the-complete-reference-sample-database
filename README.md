@@ -8,7 +8,7 @@ docker compose up
 
 ## Use the DB
 ```bash
-mysql --protocol=tcp -u root
+mysql -h 127.0.0.1 -u root
 ```
 
 ## Stop the DB
